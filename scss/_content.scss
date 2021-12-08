@@ -1,0 +1,113 @@
+html{
+	font-size: 62.5%;
+}
+
+main{
+	background-color:$info;
+	display: $d-flex;
+}
+
+header{
+	h1{
+		color: $primary;
+		$textBig:2.5rem;
+		background-color:$info; 
+		font-family: 'Berkshire Swash', serif;
+		text-align: center;
+	}
+}
+
+section{
+	h1{
+		color: $primary;
+		$textBig:2.5rem;
+		font-family: 'Berkshire Swash', serif;
+		text-align: center;
+		background-color: $info;
+	}
+}
+
+.menu{
+	justify-content: space-around;
+	text-align: center;
+	list-style: none;
+	text-transform: uppercase;
+}
+
+.palitos{
+	width: 450px;
+}
+
+section{
+	text-align: center;
+	article{
+		img{
+			width: 450px;
+			text-align: center;
+		}
+	}
+}
+
+section{
+	h2{
+		color: $primary;
+		font-family: 'Berkshire Swash', serif;
+
+	}
+	p{
+		line-height: 3rem;
+		color:black;
+		font-family: 'Cinzel', serif;
+		$textmedium: 2em;
+	}
+}
+
+div{
+	justify-content: space-around;
+	ul{
+		li{
+			list-style: none;
+			display: inline-block;
+			text-transform: uppercase;
+			text-align: center;
+			a{
+				color: $nav;
+				font-family: 'Cinzel', serif;
+				text-decoration: none;
+				$textMedium:2em;
+				&:hover{
+				color:$secondary;
+				}		  
+			}
+		}
+	}
+}
+
+
+section{
+	ul{
+		li{
+			list-style: none;
+			text-transform: uppercase;
+			a{
+				color: $primary;
+				font-family: 'Cinzel', serif;
+				$textBig: 3rem;
+				text-decoration: none;
+				text-align: center;
+				&:hover{
+					color:$secondary;
+				}
+			}
+		}
+	}
+}
+
+
+form{
+	clear: both;
+	padding: 10px;
+	h2{
+		font-family: 'Berkshire Swash', serif;
+	}
+}
